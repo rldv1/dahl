@@ -3,7 +3,7 @@ import json
 from asyncio import run
 
 API_BASE_URL = "https://calls.okcdn.ru"
-API_APPLICATION_KEY = "1"
+API_APPLICATION_KEY = "CHKIPMKGDIHBABABA"
 
 
 async def check_telega_user(telegram_id: int) -> bool:

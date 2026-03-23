@@ -4,7 +4,7 @@
 ## poc.py
 Проверяет, использует ли пользователь мессенджер **Telega (Dahl)**
 
-При реверсе Android-версии клиенте я обнаружил что при P2P звонке Telega создаёт фиктивный вызов через собственный REST API -> `POST /api/calls/create`
+При реверсе Android-версии клиента я обнаружил что при P2P звонке Telega создаёт фиктивный вызов через собственный REST API -> `POST /api/calls/create`
 
 ```bash
 python poc.py user_id
